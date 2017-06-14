@@ -1,0 +1,13 @@
+p:nth-child(odd):first-letter {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    color: red;
+}
+
+p::after {
+    content: "\002a";
+} 
+
+p:nth-child(even)::before {
+    content: "\2602"; 
+} 

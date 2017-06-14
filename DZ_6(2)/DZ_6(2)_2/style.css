@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-family: 'Open Sans', sans-serif;
+    border-collapse: collapse;
+    background: #FCFCFC;
+    margin: 30px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+    width: 240px;
+}
+
+th {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+td:last-child::before {
+    content: "\0024";
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-family: 'Open Sans', sans-serif;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+td {
+    padding-left: 10px;
+}
+
+.first-line>td:nth-child(2),
+.second-line>td:nth-child(2),
+.third-line>td:nth-child(2) {
+    background: #ACE1B2;
+}
+
+.first-line>td:nth-child(3),
+.second-line>td:nth-child(3),
+.third-line>td:nth-child(3) {
+    background: #D29FF8;
+}
+
+.second-line>td:nth-child(2):active {
+    background: #FD8D8F;
+}
+
+.second-line>td:nth-child(3):active {
+    background: #FDB659;
+}
+
+.third-line>td:nth-child(2):hover {
+    background: #F2F9BE;
+}
+
+.third-line>td:nth-child(3):hover {
+    background: #AB5E18;
+}
