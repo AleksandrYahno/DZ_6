@@ -1,0 +1,31 @@
+p:nth-child(odd):first-letter {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    color: red;
+}
+
+p::after {
+    content: "\002a";
+}
+
+p:nth-child(even)::before {
+    content: "\2602";
+}
+
+.box {
+    position: relative;
+    width: 80px;
+    height: 50px;
+    background: #000;
+    margin: 50px;
+    display: inherit;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 14px;
+    border: 10px solid transparent;
+    border-right: 20px solid #000;
+}
